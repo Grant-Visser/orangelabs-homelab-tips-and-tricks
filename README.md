@@ -11,6 +11,7 @@ This repo is a living document. Every time I solve a gnarly problem or find a be
 | Script | What it does |
 |--------|-------------|
 | [`scripts/manage_qbittorrent_migration.sh`](scripts/manage_qbittorrent_migration.sh) | Migrate torrents between qBittorrent instances (LXC containers) with full category preservation |
+| [`scripts/add_smb_share_to_lxc.sh`](scripts/add_smb_share_to_lxc.sh) | Mount a CIFS/SMB NAS share on the Proxmox host and bind-mount it into LXC containers with correct UID/GID mapping |
 
 ## Philosophy
 
